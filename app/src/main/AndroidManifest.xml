@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BioData">
         <activity
-            android:name=".MainActivity"
+            android:name=".Bio_Details"
+            android:exported="false" />
+        <activity
+            android:name=".GetData"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
